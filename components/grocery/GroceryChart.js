@@ -3,9 +3,9 @@ import LineChart from  '../cards/Chartdash'
 const GroceryChart = () => {
   return (
            <>
-          <div class="card h-100">
-        <div class="card-header">
-        <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span>
+          <div className="card h-100">
+        <div className="card-header">
+        <span className="me-2"><i className="bi bi-bar-chart-fill"></i></span>
                 Area Chart Example
                
            </div>

@@ -6,7 +6,7 @@ const Sidebar = () => {
       className="position-fixed side-menu vh-100"
       data-bs-scroll="true"
       data-bs-backdrop="false"
-      tabindex="-1"
+      tabIndex="-1"
       id="offcanvasScrolling"
       aria-labelledby="offcanvasScrollingLabel"
     >
@@ -42,13 +42,15 @@ const Sidebar = () => {
                 </a>
               </div>
             </div>
-            <a
-              className="p-3 d-flex align-content-center justify-content-center"
-              href=""
-            >
-              <p className="d-none d-md-block my-auto me-2">Welcome, User</p>
-              <i class="bx bxs-user-circle bx-md"></i>
-            </a>
+            <Link href="/profile">
+              <a
+                className="p-3 d-flex align-content-center justify-content-center"
+                href=""
+              >
+                <p className="d-none d-md-block my-auto me-2">Welcome, User</p>
+                <i className="bx bxs-user-circle bx-md"></i>
+              </a>
+            </Link>
           </div>
         </div>
       </div>

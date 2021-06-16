@@ -15,17 +15,17 @@ const Login = () => {
                   <form>
                     <div className="form-label-group">
                       <input type="Name" id="inputName" className="form-control" placeholder="Username" required autofocus/>
-                      <label for="inputName">Username</label>
+                      <label htmlFor="inputName">Username</label>
                     </div>
     
                     <div className="form-label-group">
                       <input type="password" id="inputPassword" className="form-control" placeholder="Password" required/>
-                      <label for="inputPassword">Password</label>
+                      <label htmlFor="inputPassword">Password</label>
                     </div>
     
                     <div className="custom-control custom-checkbox mb-3">
                       <input type="checkbox" className="custom-control-input" id="customCheck1"/>
-                      <label className="custom-control-label" for="customCheck1">Remember password</label>
+                      <label className="custom-control-label" htmlFor="customCheck1">Remember password</label>
                     </div>
                     <button className="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
                     <div className="text-center d-flex  justify-content-around pd-4">

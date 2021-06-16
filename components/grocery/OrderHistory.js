@@ -1,5 +1,6 @@
 import Dropdown from 'react-bootstrap/Dropdown'
 import Row from 'react-bootstrap/Dropdown'
+import OrderScroll from '../cards/OrderScroll'
 
 const OrderHistory = () => {
     return (
@@ -7,15 +8,28 @@ const OrderHistory = () => {
       <div className="d-flex justify-content-between">
         <h3>Order history</h3>
         <div className="d-flex text-center">
-          <h5 className="m-2">Latest</h5>
+          <h5 className="m-2">Order Locations</h5>
           <Dropdown>
         <Dropdown.Toggle variant="primary" id="dropdown-Basic">
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+          <Dropdown.Item href="#/action-1">All Places</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Caloocan</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Malabon</Dropdown.Item>
+          <Dropdown.Item href="#/action-1">Navotas</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Quezon City</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Marikina</Dropdown.Item>
+          <Dropdown.Item href="#/action-1">Pasig</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Taguig</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Makati</Dropdown.Item>
+          <Dropdown.Item href="#/action-1">Manila</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">San Juan</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Pasay</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Parañaque</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Las Piñas</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Muntinlupa</Dropdown.Item>
+
         </Dropdown.Menu>
       </Dropdown>
         </div>
@@ -105,13 +119,12 @@ const OrderHistory = () => {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+          <Dropdown.Item href="#/action-1">Open New Page</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">View Here</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       </Row>
-      
+      <OrderScroll/>
     </div>
     );
   };
